@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(236,148,51);
+    margin: 0;
+    padding: 0;
+}
+
+.underCons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    .logo{
+        img{
+            width: 29rem;
+            height: 16rem;
+        }
+    }
+    .text{
+        font-size: 3.9rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+    }
+}
